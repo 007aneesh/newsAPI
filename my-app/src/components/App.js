@@ -22,12 +22,15 @@ class App extends Component {
   }
   render() {
     return (
-      <div className="containwer-fluid">
+      <div className="containwer-fluid bg-black">
         <div className="navbar-fixed">
           <nav>
-            <div className="nav-wrapper indigo lighten-4">
-              <a href="/" className="bran-logo center">
-                My feed
+            <div className="nav-wrapper bg-black">
+              <a
+                href="/"
+                className="bran-logo flex justify-center font-bold align-middle text-2xl h-full  text-white"
+              >
+                Latest feed
               </a>
             </div>
           </nav>
